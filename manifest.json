@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "안녕 웨일",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_title": "Hello, World",      
+        "default_popup": "main.html" 
+    },
+    "permissions" : [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ]
+}
